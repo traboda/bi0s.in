@@ -444,28 +444,124 @@ const students = [
         "email": "4rch1tk4k@gmail.com"
     },
     {
-        "username": "abhiabhi2306",
+        "username": "bugwatch",
         "firstname": "Abhishek",
-        "lastname": "Siddarth",
-        "category": "VAPT",
+        "lastname": "S",
+        "category": "Application Security",
         "team": "Pentest",
         "year": 4,
-        "twitter": "",
-        "linkedin": "",
-        "github": "",
-        "email": ""
+        "twitter": "abhiabhi2306",
+        "linkedin": "abhisheksidharth",
+        "github": "abhiabhi2306",
+        "email": "abhiabhi2306@gmail.com"
     },
     {
-        "username": "srikar",
+        "username": "231tr0n",
         "firstname": "Srikar",
         "lastname": "R",
         "category": "Application Security",
         "team": "Pentest",
         "year": 4,
-        "twitter": "",
+        "twitter": "231tr0n",
+        "linkedin": "231tr0n",
+        "github": "231tr0n",
+        "email": "xzeltronx@gmail.com"
+    },
+    {
+        "username": "v1dhun",
+        "firstname": "Vidhun",
+        "lastname": "K",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 4,
+        "twitter": "v1dhun",
+        "linkedin": "vidhunind",
+        "github": "v1dhun",
+        "email": "vidhunedl@gmail.com"
+    },
+    {
+        "username": "Ash",
+        "firstname": "Anjana",
+        "lastname": "Suresh",
+        "category": "Cloud Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "anjanas_02",
+        "linkedin": "anjana-suresh-821371211",
+        "github": "anjana02",
+        "email": "rs.anjanasuresh@gmail.com"
+    },
+    {
+        "username": "SaNDY",
+        "firstname": "Sandeep Prem",
+        "lastname": "Nambiar",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "SandeepNambia13",
+        "linkedin": "Sandeep Nambiar",
+        "github": "SandeepNambiar",
+        "email": "sandeepnambiar02@gmail.com"
+    },
+    {
+        "username": "r0n1n",
+        "firstname": "R",
+        "lastname": "Srikesh",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "r_srikesh",
+        "linkedin": "srikesh-ravikumar",
+        "github": "rSrikesh",
+        "email": "srikeshravikumar@gmail.com"
+    },
+    {
+        "username": "Rav3nf0",
+        "firstname": "Aadarsh T",
+        "lastname": "Rajeev",
+        "category": "Network Security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "Rav3nf0",
         "linkedin": "",
-        "github": "",
-        "email": ""
+        "github": "rav3nf0",
+        "email": "aadarsht087@gmail.com"
+    },
+    {
+        "username": "st4gz0",
+        "firstname": "Jose",
+        "lastname": "Vithayathil",
+        "category": "Network Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "jose_v8_",
+        "linkedin": "josev8",
+        "github": "josev8",
+        "email": "josevithayathil25@gmail.com"
+    },
+    {
+        "username": "AztrO",
+        "firstname": "Snehasree",
+        "lastname": "S",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "ssnehasree",
+        "linkedin": "Snehasree S",
+        "github": "snehasree31",
+        "email": "snehasrees31@gmail.com"
+    },
+    {
+        "username": "v4li3nt",
+        "firstname": "Aiswarya",
+        "lastname": "Nair",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 3,
+        "twitter": "aiswary32129451",
+        "linkedin": "aiswarya-nair-316b56220",
+        "github": "itsmeaiswarya",
+        "email": "aiswarya2747@gmail.com"
     }
 ]
 
