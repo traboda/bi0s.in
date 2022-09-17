@@ -442,6 +442,30 @@ const students = [
         "linkedin": "",
         "github": "",
         "email": "4rch1tk4k@gmail.com"
+    },
+    {
+        "username": "abhiabhi2306",
+        "firstname": "Abhishek",
+        "lastname": "Siddarth",
+        "category": "VAPT",
+        "team": "Pentest",
+        "year": 4,
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "email": ""
+    },
+    {
+        "username": "srikar",
+        "firstname": "Srikar",
+        "lastname": "R",
+        "category": "Application Security",
+        "team": "Pentest",
+        "year": 4,
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "email": ""
     }
 ]
 

@@ -148,11 +148,21 @@ const alumni = [
         "email": "sayoojsamuelgreat@gmail.com"
     },
     {
+        "firstname": "Amrudesh",
+        "lastname": "",
+        "category": "Application Security",
+        "team": "Pentest",
+        "batch": 2021,
+        "affiliation": "CRED",
+        "email": ""
+    },
+    {
         "firstname": "Vivek",
         "lastname": "N J",
-        "category": "Cryptography", "team": "CTF",
+        "category": "Cryptography",
+        "team": "CTF",
         "batch": 2021,
-        "affiliation": "",
+        "affiliation": "Traboda",
         "email": "viveknj719@gmail.com"
     },
     {

@@ -1,14 +1,14 @@
 const staff = [
     {
-        firstname: 'Arjun',
-        lastname: 'TU',
-        category: 'Reverse Engineering',
+        firstname: 'Abhinand',
+        lastname: 'N',
+        category: 'Android Security',
         team: 'CTF'
     },
     {
-        firstname: 'Abhinand',
-        lastname: '',
-        category: 'Android Security',
+        firstname: 'Arjun',
+        lastname: 'TU',
+        category: 'Reverse Engineering',
         team: 'CTF'
     },
     {
@@ -28,7 +28,13 @@ const staff = [
         lastname: 'Nair',
         category: 'Offensive Security',
         team: 'Pentest'
-    }
+    },
+    {
+        firstname: 'Vivek',
+        lastname: 'N J',
+        category: 'Firmware Analysis',
+        team: 'Hardware'
+    },
 ];
 
 export default staff;
