@@ -1,5 +1,24 @@
 const Achievements = [
     {
+        type: 'CTF',
+        infoText: '#1 @ DomeCTF at c0c0n 2022',
+        text: <>
+            Our members <b>Adithya Suresh Kumar (@amun_rha)</b> and <b>Rohit Narayanan (@Lu513n)</b> won the
+            Dome CTF organized at C0c0n XV cyber security conference. The team coming first among 64 teams also
+            received a cash prize of <b>1 lakhs</b>.
+        </>,
+        date: 'September 24, 2022'
+    },
+    {
+        type: 'CTF',
+        infoText: '#1 @ Adversary Wars CTF at c0c0n 2022',
+        text: <>
+            Our member <b>Yadhu Krishna M (@YadhuKrishna_)</b> won the Adversary Wars CTF organized at C0c0n XV, held
+            at Grand Hyatt, Kochi on September 24th
+        </>,
+        date: 'September 24, 2022'
+    },
+    {
         type: 'CVE',
         infoText: 'CVE-2021-23718, CVE-2021-23448',
         text: <>
@@ -53,6 +72,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
+        infoText: 'Google Summer of Code',
         text: <>
             <b>Simran Kathpalia</b> got selected for Google Summer of Code 2021 with <b>FreeBSD</b>,
             and worked on a project with a goal to &apos;enhance syzkaller support for FreeBSD&apos;.
@@ -67,6 +87,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
+        infoText: 'Google Summer of Code',
         text: <>
             <b>Ashwin C</b> got selected for Google Summer of Code 2021 with <b>Rizin</b>,
             and worked on a project titled - &apos;Support for CPU and Platform Profiles&apos;.
@@ -81,6 +102,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
+        infoText: 'Google Summer of Code',
         text: <>
             <b>Vishnu Madhav</b> got selected for Google Summer of Code 2021 with <b>GNU GCC</b>,
             and worked on a project to &apos;Make Cp-demangler non recursive&apos;.
@@ -89,6 +111,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
+        infoText: 'Google Summer of Code',
         text: <>
             <b>Pranjal Singh</b> got selected for Google Summer of Code 2021 with <b>The Honeynet Project</b>,
             for the Xen project.

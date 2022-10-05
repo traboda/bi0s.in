@@ -43,11 +43,11 @@ const Teams = () => (
         </p>
         <div className="flex flex-wrap mx-0 my-4">
             {TEAMS.map((t) => (
-                <div className="w-full md:w-1/2 px-2 py-4" key={t.name}>
+                <div className="w-full md:w-1/2 py-6 px-3" key={t.name}>
                     <div className="text-lg md:text-xl lg:text-2xl font-semibold mb-2">
                         {t.name}
                     </div>
-                    <p className="opacity-90 text-sm">{t.description}</p>
+                    <p style={{ width: '450px', maxWidth: '100%' }} className="opacity-80 text-sm">{t.description}</p>
                 </div>
             ))}
         </div>

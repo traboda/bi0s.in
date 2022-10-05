@@ -59,7 +59,7 @@ const Layout = ({ children, title }) => {
                         body: {
                             color: isDarkTheme ? DARK_THEME.text : LIGHT_THEME.text,
                             background: isDarkTheme ? DARK_THEME.background : LIGHT_THEME.background,
-                            backgroundSize: `75px 120px`,
+                            backgroundSize: `155px 60px`,
                             backgroundImage: isDarkTheme ?
                                 `linear-gradient(90deg,hsla(0,0%,100%,.03) 1px,transparent 0),linear-gradient(180deg,hsla(0,0%,100%,.03) 1px,transparent 0)` :
                                 `linear-gradient(90deg,hsl(0deg 0% 0% / 5%) 1px,transparent 0),linear-gradient(180deg,hsl(0deg 0% 0% / 5%) 1px,transparent 0)`
