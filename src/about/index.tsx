@@ -9,7 +9,7 @@ import HowItFunctions from "./how-it-functions";
 import Teams from "./teams";
 
 const HeaderSection = styled('section')`
-  min-height: 35vmin;
+  min-height: 25vmin;
   display: flex;
   align-items: center;
   padding: 5vh 1rem;

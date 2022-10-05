@@ -1,5 +1,6 @@
 const students = [
     {
+        "campus": "Amritapuri", 
         "username": "Abhishek",
         "firstname": "Abhishek",
         "lastname": "M Bharadwaj",
@@ -9,6 +10,7 @@ const students = [
         "email": "medicherlaabhishekbharadwajmvp@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "AmunRha",
         "firstname": "Adhithya",
         "lastname": "Suresh Kumar",
@@ -20,6 +22,7 @@ const students = [
         "email": "adhithyasureshk@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Alfin",
         "firstname": "Alfin",
         "lastname": "Joseph",
@@ -30,6 +33,7 @@ const students = [
         "email": "josealfin542@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "DarkKnight",
         "firstname": "Anand",
         "lastname": "Balaji",
@@ -39,6 +43,7 @@ const students = [
         "email": "anandabalaji@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "ma1f0y",
         "firstname": "Aneesh",
         "lastname": "Nadh R",
@@ -48,6 +53,7 @@ const students = [
         "email": "aneeshabhi246@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Av4nth1ka",
         "firstname": "Avanthika",
         "lastname": "Anand",
@@ -60,6 +66,7 @@ const students = [
         "email": "avanthikaanand1@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Barla Abhishek",
         "firstname": "Barla",
         "lastname": "Abhishek",
@@ -69,6 +76,7 @@ const students = [
         "email": "barlaabhi07@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "morb1u5",
         "firstname": "Gokul",
         "lastname": "Panicker",
@@ -80,6 +88,7 @@ const students = [
         "email": "panicker.gokul@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "fug1t1ve",
         "firstname": "Gourav",
         "lastname": "Singh Bajeli",
@@ -89,6 +98,7 @@ const students = [
         "email": "gbajeli36@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Pwn_Solo",
         "firstname": "Hrishikesh",
         "lastname": "Pankaj",
@@ -98,6 +108,7 @@ const students = [
         "email": "hrishikeshpankaj12@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Claire de lune",
         "firstname": "Indulekha",
         "lastname": "P Menon",
@@ -108,6 +119,7 @@ const students = [
         "email": "indulekhapm24@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "V!CT!M",
         "firstname": "Manohar",
         "lastname": "Reddy Pagilla",
@@ -116,6 +128,7 @@ const students = [
         "year": 3
     },
     {
+        "campus": "Amritapuri", 
         "username": "LS",
         "firstname": "Mohith",
         "lastname": "L S",
@@ -125,6 +138,7 @@ const students = [
         "email": "mohithls1@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "bl4ck_Widw",
         "firstname": "Namitha",
         "lastname": "S",
@@ -134,6 +148,7 @@ const students = [
         "email": "namitha1701@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "nandita sangeeth",
         "firstname": "Nandita",
         "lastname": "Sangeeth",
@@ -143,6 +158,7 @@ const students = [
         "email": "nandita.sangeeth@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Z_Pacifist",
         "firstname": "Nandu",
         "lastname": "S Pillai",
@@ -155,6 +171,7 @@ const students = [
         "email": "nspmail12@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Azr43lKn1ght",
         "firstname": "Nithin",
         "lastname": "Chenthur P",
@@ -164,6 +181,7 @@ const students = [
         "email": "nithinchenthur@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Pavani",
         "firstname": "Poluru",
         "lastname": "Pavani",
@@ -173,6 +191,7 @@ const students = [
         "email": "pavanipoluru.21.01@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Ad0lphus",
         "firstname": "Prabith",
         "lastname": "GS",
@@ -185,6 +204,7 @@ const students = [
         "email": "prabith7.g.s@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "d3liri0us",
         "firstname": "Pranav",
         "lastname": "Nair",
@@ -195,6 +215,7 @@ const students = [
         "email": "pnepranav.na1r@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Sk4d00sh",
         "firstname": "Rahul",
         "lastname": "Sunder",
@@ -206,6 +227,7 @@ const students = [
         "email": "rkillzboom@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "revathi",
         "firstname": "Revathi",
         "lastname": "Chundi",
@@ -215,7 +237,8 @@ const students = [
         "email": "chundirevathi@am.students.amrita.edu"
     },
     {
-        "username": "rohit",
+        "campus": "Amritapuri", 
+        "username": "Lu513n",
         "firstname": "Rohit",
         "lastname": "Narayanan M",
         "category": "Web Exploitation",
@@ -225,6 +248,7 @@ const students = [
         "email": "rohitnanu.m@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Sabhya",
         "firstname": "Sabhya",
         "lastname": "Raj Mehta",
@@ -234,6 +258,7 @@ const students = [
         "email": "sabhrajmeh05@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "spektre",
         "firstname": "Sanjay",
         "lastname": "Vardhan",
@@ -243,6 +268,7 @@ const students = [
         "email": "sanjayvardhanpadala@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "1nt3rc3pt0r",
         "firstname": "Sayooj",
         "lastname": "B Kumar",
@@ -253,6 +279,7 @@ const students = [
         "email": "sayoojbkumar@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "k1n0r4",
         "firstname": "Sejal",
         "lastname": "Vinay Koshta",
@@ -265,6 +292,7 @@ const students = [
         "email": "sejal.koshta2003@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "shravya",
         "firstname": "Shravya",
         "lastname": "Bhaskara",
@@ -274,6 +302,7 @@ const students = [
         "email": "shrabhas@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "retr0ds",
         "firstname": "Sidharth",
         "lastname": "V",
@@ -283,6 +312,7 @@ const students = [
         "email": "sidharth0x56@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "imm0rt4l_5t4rk",
         "firstname": "Simran",
         "lastname": "Kathpalia",
@@ -294,6 +324,7 @@ const students = [
         "email": "skathpalia3@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "v1Ru5",
         "firstname": "Sridevi",
         "lastname": "K",
@@ -306,6 +337,7 @@ const students = [
         "email": "ksridevi1501@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "k1R4",
         "firstname": "Srijith",
         "lastname": "S",
@@ -317,6 +349,7 @@ const students = [
         "email": "ssrijiith@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "L0xmii",
         "firstname": "Srilakshmi",
         "lastname": "Prathapan",
@@ -329,6 +362,7 @@ const students = [
         "email": "lakshmiprathapan007@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "The_Str1d3r",
         "firstname": "Vishvesh",
         "lastname": "S Rao",
@@ -340,6 +374,7 @@ const students = [
         "email": "vishveshsrao@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "yadhu",
         "firstname": "Yadhu",
         "lastname": "Krishna M",
@@ -352,6 +387,7 @@ const students = [
         "email": "yadhukrishna.mpm@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "A7HUL",
         "firstname": "Athul",
         "lastname": "Menon",
@@ -364,6 +400,7 @@ const students = [
         "email": "athulmenon17@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "IndyGod",
         "firstname": "Indraraj",
         "lastname": "Biswas",
@@ -373,6 +410,7 @@ const students = [
         "email": "saket.biswas@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "whrs_makey",
         "firstname": "Kiran",
         "lastname": "S Pillai",
@@ -385,6 +423,7 @@ const students = [
         "email": "kiransp2002@gmai.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Chainfire73",
         "firstname": "Sreesankar",
         "lastname": "S",
@@ -397,6 +436,7 @@ const students = [
         "email": "chainfire73@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "narikodanhridul",
         "firstname": "Nariokdan",
         "lastname": "Hridul",
@@ -409,6 +449,7 @@ const students = [
         "email": "narikodanhridul@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "V!p3r",
         "firstname": "Ranit",
         "lastname": "Pradhan",
@@ -421,6 +462,7 @@ const students = [
         "email": "pradhanranit0019@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "MiHawk",
         "firstname": "C P",
         "lastname": "Ghanshyam",
@@ -432,6 +474,7 @@ const students = [
         "email": "shyamku917@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "KⒶꓘ",
         "firstname": "Archit",
         "lastname": "Kak",
@@ -444,6 +487,7 @@ const students = [
         "email": "4rch1tk4k@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "bugwatch",
         "firstname": "Abhishek",
         "lastname": "S",
@@ -456,6 +500,7 @@ const students = [
         "email": "abhiabhi2306@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "231tr0n",
         "firstname": "Srikar",
         "lastname": "R",
@@ -468,6 +513,7 @@ const students = [
         "email": "xzeltronx@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "v1dhun",
         "firstname": "Vidhun",
         "lastname": "K",
@@ -480,6 +526,7 @@ const students = [
         "email": "vidhunedl@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Ash",
         "firstname": "Anjana",
         "lastname": "Suresh",
@@ -492,6 +539,7 @@ const students = [
         "email": "rs.anjanasuresh@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "SaNDY",
         "firstname": "Sandeep Prem",
         "lastname": "Nambiar",
@@ -504,6 +552,7 @@ const students = [
         "email": "sandeepnambiar02@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "r0n1n",
         "firstname": "R",
         "lastname": "Srikesh",
@@ -516,6 +565,7 @@ const students = [
         "email": "srikeshravikumar@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "Rav3nf0",
         "firstname": "Aadarsh T",
         "lastname": "Rajeev",
@@ -528,6 +578,7 @@ const students = [
         "email": "aadarsht087@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "st4gz0",
         "firstname": "Jose",
         "lastname": "Vithayathil",
@@ -540,6 +591,7 @@ const students = [
         "email": "josevithayathil25@gmail.com"
     },
     {
+        "campus": "Amritapuri", 
         "username": "AztrO",
         "firstname": "Snehasree",
         "lastname": "S",
@@ -552,6 +604,7 @@ const students = [
         "email": "snehasrees31@gmail.com"
     },
     {
+        "campus": "Amritapuri",
         "username": "v4li3nt",
         "firstname": "Aiswarya",
         "lastname": "Nair",
@@ -562,6 +615,51 @@ const students = [
         "linkedin": "aiswarya-nair-316b56220",
         "github": "itsmeaiswarya",
         "email": "aiswarya2747@gmail.com"
+    },
+    {
+        "campus": "Bengaluru",
+        "username": "Cy83rTr0n",
+        "firstname": "Rajarshi",
+        "lastname": "Patra",
+        "category": "Reverse Engineering",
+        "team": "CTF",
+        "year": 3,
+    },
+    {
+        "campus": "Bengaluru",
+        "username": "Cyberc0re",
+        "firstname": "Anshuman",
+        "lastname": "Sahoo",
+        "category": "Cryptography",
+        "team": "CTF",
+        "year": 3,
+    },
+    {
+        "campus": "Bengaluru",
+        "username": "Masterchief8888",
+        "firstname": "Kandi",
+        "lastname": "Abhishek",
+        "category": "Forensics",
+        "team": "CTF",
+        "year": 2,
+    },
+    {
+        "campus": "Bengaluru",
+        "username": "p0k3m0n",
+        "firstname": "N R",
+        "lastname": "Partheev",
+        "category": "Forensics",
+        "team": "CTF",
+        "year": 2,
+    },
+    {
+        "campus": "Bengaluru",
+        "username": "akhilgvarrier",
+        "firstname": "Akhil",
+        "lastname": "G Varrier",
+        "category": "Web Exploitation",
+        "team": "CTF",
+        "year": 3,
     }
 ]
 

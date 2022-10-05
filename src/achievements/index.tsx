@@ -6,7 +6,7 @@ import ACHIEVEMENTS from '../data/achievements';
 import AchievementCard from "./card";
 
 const HeaderSection = styled('section')`
-  min-height: 35vmin;
+  min-height: 25vmin;
   display: flex;
   align-items: center;
   padding: 5vh 1rem;

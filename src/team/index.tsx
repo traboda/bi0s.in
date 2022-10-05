@@ -15,7 +15,7 @@ import FounderSection from "./founder";
 const HeaderSection = styled.section`
   display: flex;
   align-items: center;
-  min-height: 35vmin;
+  min-height: 25vmin;
   padding: 1rem 0.35rem;
 `;
 
@@ -24,9 +24,11 @@ const TeamPage = () => {
     const [selection, setSelection] = useState('ALL');
     const [team, setTeam] = useState('ALL');
     const [keyword, setKeyword] = useState('');
+    const [campus, setCampus] = useState('ALL')
 
-    const filterMembers = (members) => members.filter((m) =>
-        (team == 'ALL' || team == m.team) &&
+    const filterMembers = (members, isAdvisor = false) => members.filter((m) =>
+        (isAdvisor || team == 'ALL' || team == m.team) &&
+        (isAdvisor || campus == 'ALL' || campus?.toLowerCase() == m?.campus?.toLowerCase()) &&
         (m?.firstname?.toLowerCase().startsWith(keyword) || m?.lastname?.toLowerCase().startsWith(keyword) || m?.username?.toLowerCase().startsWith(keyword))
     );
 
@@ -41,6 +43,8 @@ const TeamPage = () => {
                 <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
                     <div className="sticky top-0" style={{ paddingTop: '7vh' }}>
                         <TableOfContents
+                            campus={campus}
+                            setCampus={setCampus}
                             setType={setSelection}
                             type={selection}
                             setTeam={setTeam}
@@ -59,7 +63,7 @@ const TeamPage = () => {
                         <MemberSection
                             id="advisors"
                             title="Advisors"
-                            members={filterMembers(ADVISORS)}
+                            members={filterMembers(ADVISORS, true)}
                         />
                     )}
                     {(selection === 'ALL' || selection === 'STAFF') && (

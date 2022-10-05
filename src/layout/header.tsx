@@ -21,7 +21,7 @@ const MenuContainer = styled.ul`
   align-items: center;
   font-weight: 600;
   li {
-    margin-right: 2vw;
+    margin-right: 0.5vw;
     padding: 0.25rem 0.5rem;
     border-radius: 7px;
     &:hover {
@@ -64,9 +64,13 @@ const MENU_ITEMS = [
     //     label: "Projects",
     //     href: "/projects"
     // },
+    // {
+    //     label: "Teams",
+    //     href: "/teams"
+    // },
     {
-        label: "Team",
-        href: "/team"
+        label: "Members",
+        href: "/members"
     },
     {
         label: "Achievements",

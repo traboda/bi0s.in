@@ -12,7 +12,12 @@ const StyledInput = styled.input`
     }
 `;
 
-const TableOfContents = ({ type = 'ALL', setType, team, setTeam = (_t) => {}, keyword, setKeyword = (_k) => {} }) => (
+const TableOfContents = ({
+    type = 'ALL', setType,
+    team, setTeam = (_t) => {},
+    keyword, setKeyword = (_k) => {},
+    campus, setCampus = (_c) => {},
+}) => (
 <div className="mt-8 p-3">
     <div className="mb-8">
         <StyledInput
@@ -22,7 +27,7 @@ const TableOfContents = ({ type = 'ALL', setType, team, setTeam = (_t) => {}, ke
         />
     </div>
     <div className="mb-8">
-        <ul>
+        <ul className="opacity-60">
             <li className="mb-2">
                 {type ==='ALL' && <span>{'> '}</span>}
                 <button onClick={() => setType('ALL')}>All Members</button>
@@ -49,7 +54,7 @@ const TableOfContents = ({ type = 'ALL', setType, team, setTeam = (_t) => {}, ke
         <div className="font-semibold mb-2">
             By Team
         </div>
-        <ul>
+        <ul className="opacity-60">
             <li className="mb-2">
                 {team ==='ALL' && <span>{'> '}</span>}
                 <button onClick={() => setTeam('ALL')}>All Teams</button>
@@ -65,6 +70,29 @@ const TableOfContents = ({ type = 'ALL', setType, team, setTeam = (_t) => {}, ke
             <li className="mb-2">
                 {team === 'Pentest' && <span>{'> '}</span>}
                 <button onClick={() => setTeam('Pentest')}>Pentest</button>
+            </li>
+        </ul>
+    </div>
+    <div className="mt-8 mb-6">
+        <div className="font-semibold mb-2">
+            By Campus
+        </div>
+        <ul className="opacity-60">
+            <li className="mb-2">
+                {campus ==='ALL' && <span>{'> '}</span>}
+                <button onClick={() => setCampus('ALL')}>All Campuses</button>
+            </li>
+            <li className="mb-2">
+                {campus ==='AMRITAPURI' && <span>{'> '}</span>}
+                <button onClick={() => setCampus('AMRITAPURI')}>Amritapuri</button>
+            </li>
+            <li className="mb-2">
+                {campus ==='BENGALURU' && <span>{'> '}</span>}
+                <button onClick={() => setCampus('BENGALURU')}>Bengaluru</button>
+            </li>
+            <li className="mb-2">
+                {campus === 'COIMBATORE' && <span>{'> '}</span>}
+                <button onClick={() => setCampus('COIMBATORE')}>Coimbatore</button>
             </li>
         </ul>
     </div>
