@@ -15,8 +15,8 @@ const HeaderSection = styled.header`
     }
     a {
       border: 2px solid ${({theme}) => theme.text};
-      padding: 0.35rem 0.75rem;
-      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
       &:hover {
         background: ${({theme}) => theme.text};
         color: ${({theme}) => theme.background};
@@ -36,13 +36,17 @@ const LandingHeader = () => (
                 protect tommorow&apos;s cyberspace. At our student-run club, our mentors train freshers in cyber-security through
                 CTFs. We organize infosec events, trainings, and work on a wide variety of cyber-security research projects.
             </p>
-            <div className="py-6 flex items-center gap-3">
-                <a href="https://join.bi0s.in/">
-                    Join Us
-                </a>
-                <a href="https://rzp.io/l/freshers-workshop">
-                    Register for Training
-                </a>
+            <div className="py-6 block md:flex mx-0 gap-3">
+                <div className="py-3">
+                    <a href="https://join.bi0s.in/">
+                        Join Us
+                    </a>
+                </div>
+                <div className="py-3">
+                    <a href="https://rzp.io/l/freshers-workshop">
+                        Register for Training
+                    </a>
+                </div>
             </div>
         </div>
     </HeaderSection>
