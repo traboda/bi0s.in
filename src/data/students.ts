@@ -77,15 +77,39 @@ const students = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "morb1u5",
+        "username": "fr1gh7",
         "firstname": "Gokul",
         "lastname": "Panicker",
         "category": "Binary Exploitation",
         "team": "CTF",
         "year": 2,
-        "twitter": "GokulPramod3",
-        "github": "m0rb1u5-46",
+        "twitter": "fr1gh7",
+        "github": "fr1gh7",
         "email": "panicker.gokul@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "dhN",
+        "firstname": "Dhananjai",
+        "lastname": "Murali",
+        "category": "Cryptography",
+        "team": "CTF",
+        "year": 2,
+        "twitter": "DhananjaiMurali",
+        "github": "Dhananjai2003",
+        "email": "dhananjaimurali30@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "Hisoka",
+        "firstname": "Jayanth",
+        "lastname": "Katragadda",
+        "category": "Cryptography",
+        "team": "CTF",
+        "year": 2,
+        "twitter": "Hisokap3lol",
+        "github": "Hisokap3",
+        "email": "jayanthkatragadda3@gmail.com"
     },
     {
         "campus": "Amritapuri", 
@@ -106,17 +130,6 @@ const students = [
         "team": "CTF",
         "year": 4,
         "email": "hrishikeshpankaj12@gmail.com"
-    },
-    {
-        "campus": "Amritapuri", 
-        "username": "Claire de lune",
-        "firstname": "Indulekha",
-        "lastname": "P Menon",
-        "category": "Binary Exploitation",
-        "team": "CTF",
-        "year": 2,
-        "github": "clairede-lune",
-        "email": "indulekhapm24@gmail.com"
     },
     {
         "campus": "Amritapuri", 
@@ -178,6 +191,7 @@ const students = [
         "category": "Forensics",
         "team": "CTF",
         "year": 2,
+        "twitter": "Azr43lKn1ght",
         "email": "nithinchenthur@gmail.com"
     },
     {
@@ -265,6 +279,7 @@ const students = [
         "category": "Binary Exploitation",
         "team": "CTF",
         "year": 2,
+        "twitter": "0xspektre",
         "email": "sanjayvardhanpadala@gmail.com"
     },
     {
@@ -339,12 +354,12 @@ const students = [
     {
         "campus": "Amritapuri", 
         "username": "k1R4",
-        "firstname": "Srijith",
+        "firstname": "Srijiith",
         "lastname": "S",
         "category": "Binary Exploitation",
         "team": "CTF",
         "year": 2,
-        "twitter": "__k1r4",
+        "twitter": "justk1R4",
         "github": "k1R4",
         "email": "ssrijiith@gmail.com"
     },
