@@ -38,7 +38,7 @@ const LandingHeader = () => (
             </p>
             <div className="py-6 block md:flex mx-0 gap-3">
                 <div className="py-3">
-                    <a href="https://joinctf.bi0s.in/">
+                    <a href="https://join.bi0s.in/">
                         Join Recruitment CTF
                     </a>
                 </div>
