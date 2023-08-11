@@ -1,7 +1,8 @@
 module.exports = {
     important: true,
     content: [
-        './src/**/*.{jsx,tsx}',
+        './app/**/*.{jsx,tsx}',
+        './app/*.{jsx,tsx}',
         './pages/**/*.{jsx,tsx}'
     ],
     theme: {
