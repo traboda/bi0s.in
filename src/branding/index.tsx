@@ -63,10 +63,8 @@ const BrandingPage = () => (
                 {ASSETS.map((asset, index) => (
                     <div key={`si_${index}_${asset.name}`} className="w-100 md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
                         <div className="p-8" style={{ backgroundColor: asset.isLight ? '#222' : '#DDD' }}>
-                            <Link passHref target="_blank" href={`/branding/${asset.name}.png`}>
-                                <a target="_blank">
-                                    <StyledImage src={asset.path} alt={asset.name} width={300} height={300} />
-                                </a>
+                            <Link target="_blank" href={`/branding/${asset.name}.png`}>
+                                <StyledImage src={asset.path} alt={asset.name} width={300} height={300} />
                             </Link>
                             <div className="mt-2" style={{ color: asset.isLight ? '#EEE' : '#111' }}>
                                 {asset.name}

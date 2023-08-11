@@ -25,12 +25,12 @@ const TEAMS = [
             participate in bug-bounty programs for a real-time bug-hunting experience.
         `
     },
-    {
-        name: 'bi0s Tools',
-        description: `
-            The bi0s Tools team engages itself in the development of wide-variety of cyber-security tools. 
-        `
-    }
+    // {
+    //     name: 'bi0s Tools',
+    //     description: `
+    //         The bi0s Tools team engages itself in the development of wide-variety of cyber-security tools.
+    //     `
+    // }
 ]
 
 const Teams = () => (

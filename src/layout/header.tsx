@@ -84,8 +84,8 @@ const MENU_ITEMS = [
 
 const MenuItem = ({ href, label }) => (
   <li>
-      <Link href={href} passHref>
-        <a className="text-lg">{label}</a>
+      <Link href={href} className="text-lg">
+          {label}
       </Link>
   </li>
 );
@@ -101,10 +101,8 @@ const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
                     <div style={{ width: '1100px', maxWidth: '100%' }}>
                         <div className="flex flex-wrap mx-0">
                             <div className="w-1/2 lg:w-1/4 flex items-center px-2">
-                                <Link passHref href="/">
-                                    <a>
-                                        <Image alt="Team bi0s" src="/dark-logo.png" width={106} height={37} />
-                                    </a>
+                                <Link href="/">
+                                    <Image alt="Team bi0s" src="/dark-logo.png" width={106} height={37} />
                                 </Link>
                             </div>
                             <div className="w-1/2 lg:w-3/4 flex items-center justify-end px-2">

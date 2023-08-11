@@ -1,15 +1,11 @@
 module.exports = {
     important: true,
-    purge: ['./src/**/*.{jsx,tsx}', './pages/**/*.{jsx,tsx}'],
-    darkMode: false,
+    content: [
+        './src/**/*.{jsx,tsx}',
+        './pages/**/*.{jsx,tsx}'
+    ],
     theme: {
         extend: {},
-    },
-    variants: {
-        extend: {
-            zIndex: ['hover'],
-            filter: ['hover']
-        },
     },
     plugins: [],
 };

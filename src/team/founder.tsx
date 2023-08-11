@@ -23,23 +23,16 @@ const FounderSection = () => (
                 organized in India.
             </p>
             <div className="mt-6">
-                <Link href="https://twitter.com/th3_m3nt0r" passHref>
-                    <a className="mr-2">
-                        <Image alt="Twitter Profile" src="/icons/twitter.svg" width={30} height={30} />
-                    </a>
+                <Link href="https://twitter.com/th3_m3nt0r" className="mr-2">
+                    <Image alt="Twitter Profile" src="/icons/twitter.svg" width={30} height={30} />
                 </Link>
-                <Link href="https://www.linkedin.com/in/vipin-pavithran/" passHref>
-                    <a className="mr-2">
-                        <Image alt="LinkedIn Profile" src="/icons/linkedin.svg" width={30} height={30} />
-                    </a>
+                <Link href="https://www.linkedin.com/in/vipin-pavithran/" className="mr-2">
+                    <Image alt="LinkedIn Profile" src="/icons/linkedin.svg" width={30} height={30} />
                 </Link>
-                <Link href={`mailto:vipinp@am.amrita.edu`} passHref>
-                    <a>
-                        <Image alt="Email Address" src="/icons/mail.svg" width={30} height={30} />
-                    </a>
+                <Link href={`mailto:vipinp@am.amrita.edu`}>
+                    <Image alt="Email Address" src="/icons/mail.svg" width={30} height={30} />
                 </Link>
             </div>
-
         </div>
     </section>
 );
