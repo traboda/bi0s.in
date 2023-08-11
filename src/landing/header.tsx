@@ -33,7 +33,7 @@ const LandingHeader = () => (
             </h1>
             <p>
                 We are a team of college students from Amrita university, passionate about cyber security, and dedicated to
-                protect tommorow&apos;s cyberspace. At our student-run club, our mentors train freshers in cyber-security through
+                protect tomorrow&apos;s cyberspace. At our student-run club, our mentors train freshers in cyber-security through
                 CTFs. We organize infosec events, trainings, and work on a wide variety of cyber-security research projects.
             </p>
             <div className="py-6 block md:flex mx-0 gap-3">
