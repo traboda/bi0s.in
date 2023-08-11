@@ -12,11 +12,6 @@ const AchievementsPage = () => {
 
   return (
     <React.Fragment>
-      <section className="min-h-[25vmin] flex items-center py-[5vh] px-6">
-        <h1 className="font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
-          Achievements
-        </h1>
-      </section>
       <div className="flex flex-wrap mx-0">
         <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
           <div className="sticky top-0" style={{ paddingTop: '7.5vh' }}>
