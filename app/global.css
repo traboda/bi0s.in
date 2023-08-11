@@ -26,7 +26,7 @@ html, body {
 
 .content-shrinker {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .content-container *, .content-shrinker * {
