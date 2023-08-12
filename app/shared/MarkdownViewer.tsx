@@ -4,6 +4,7 @@ import Dynamic from "next/dynamic";
 import {Theme} from "../themeContext";
 import { Poppins as Font} from "next/font/google";
 import clsx from "clsx";
+import Image from "next/image";
 const font = Font({ subsets: ['latin'], weight: ['400', '700'] })
 
 const MarkdownPreview = Dynamic(() => import("@uiw/react-markdown-preview"), {
@@ -24,7 +25,7 @@ const MarkdownViewer = ({ content }: { content: string }) => {
         img: ({node, ...props}) => {
           return (
             <div className="flex justify-center">
-              <img src={props.src} className="my-3" />
+              {props.src && <Image width={600} height={600} src={props.src} alt={props.alt || 'image'} className="my-3" />}
             </div>
           );
         }

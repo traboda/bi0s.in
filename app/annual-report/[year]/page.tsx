@@ -7,10 +7,24 @@ import fetchContent from './fetch';
 import MarkdownViewer from "../../shared/MarkdownViewer";
 import clsx from "clsx";
 import BlogMenu from "./menu";
+import {Metadata, ResolvingMetadata} from "next";
 
-export { generateMetadata } from './meta';
+export const generateMetadata = async ({ params }, parent: ResolvingMetadata): Promise<Metadata> => {
+  const data = await parent;
+  let title: string = `${data?.title?.absolute}`;
+  const content = await fetchContent({ slug: params?.year });
+  if(!content?.content) {
+    return {
+      title: 'Not Found',
+    };
+  }
+  title = `${content.title} | ${title}`;
+  return {
+    title: title,
+  };
+};
 
-export default async (props: { params: { year: string } }) => {
+const AnnualReportPage = async (props: { params: { year: string } }) => {
 
   const data = await fetchContent({ slug: props?.params?.year });
   if(!data?.content) {
@@ -40,3 +54,5 @@ export default async (props: { params: { year: string } }) => {
   );
 
 };
+
+export default AnnualReportPage;
