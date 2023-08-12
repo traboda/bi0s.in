@@ -29,20 +29,25 @@ const BlogMenu = ({ titles }) => {
   }, []);
 
   return (
-    <ul
-      className="flex sticky flex-col gap-3"
-      style={{
-        top: hasScrolled ? topHeight + 15 : 0,
-      }}
+    <div
+        className="sticky"
+        style={{
+          top: hasScrolled ? topHeight + 25 : 0,
+        }}
     >
-      {(titles && titles?.length) && titles.map(({ label, slug }, index) => (
-        <li key={`${slug}_${index}`}>
-          <a href={`#${slug}`} className="leading-2 text-sm opacity-80">
-            {label}
-          </a>
-        </li>
-      ))}
-    </ul>
+      <div className="text-sm opacity-60 uppercase font-semibold mb-3">
+        On this page
+      </div>
+      <ul className="flex flex-col gap-3">
+        {(titles && titles?.length) && titles.map(({ label, slug }, index) => (
+          <li key={`${slug}_${index}`}>
+            <a href={`#${slug}`} className="leading-2 text-sm opacity-80">
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 
 };

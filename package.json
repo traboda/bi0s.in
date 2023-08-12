@@ -12,7 +12,6 @@
   "dependencies": {
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
-    "@uiw/react-markdown-preview": "^4.1.15",
     "clsx": "^2.0.0",
     "file-type": "^18.5.0",
     "framer-motion": "^6.5.1",
@@ -20,6 +19,8 @@
     "next": "^13.4.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1",
     "scroller-motion": "^1.1.1"
   },
   "devDependencies": {

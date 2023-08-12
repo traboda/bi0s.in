@@ -26,9 +26,6 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
       <Theme.Provider value={{ isDarkTheme, setDarkTheme }}>
         <Global
           styles={{
-            img: {
-              filter: isDarkTheme ? 'invert(100%)' : 'invert(0%)'
-            },
             body: {
               color: isDarkTheme ? DARK_THEME.text : LIGHT_THEME.text,
               background: isDarkTheme ? DARK_THEME.background : LIGHT_THEME.background,

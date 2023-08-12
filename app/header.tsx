@@ -2,7 +2,6 @@
 import React, {useContext, useState} from "react";
 import Link from "next/link";
 import styled from "@emotion/styled";
-import Image from "next/image";
 import clsx from "clsx";
 import {Theme} from "./themeContext";
 
@@ -107,7 +106,15 @@ const Header = () => {
             <div className="flex flex-wrap mx-0">
               <div className="w-1/2 lg:w-1/4 flex items-center px-2">
                 <Link href="/">
-                  <Image alt="Team bi0s" src="/dark-logo.png" width={106} height={37} />
+                  <img
+                    alt="Team bi0s"
+                    src="/dark-logo.png"
+                    width={106}
+                    height={37}
+                    style={{
+                      filter: isDarkTheme ? 'invert(1)' : undefined,
+                    }}
+                  />
                 </Link>
               </div>
               <div className="w-1/2 lg:w-3/4 flex items-center justify-end px-2">
@@ -128,9 +135,10 @@ const Header = () => {
                     className={clsx(['mr-3 flex items-center text-lg', isDarkTheme ? 'ri-sun' : 'ri-moon'])}
                     onClick={() => setDarkTheme(!isDarkTheme)}
                   />
-                  <button className="flex items-center" onClick={() => setOpen(!isOpen)}>
-                    <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
-                  </button>
+                  <button
+                    className={clsx(['flex items-center text-2xl', isOpen ? 'ri-close-fill' : 'ri-menu-fill'])}
+                    onClick={() => setOpen(!isOpen)}
+                  />
                 </div>
               </div>
             </div>
