@@ -25,7 +25,7 @@ const MarkdownViewer = ({ content }: { content: string }) => {
         img: ({node, ...props}) => {
           return (
             <div className="flex justify-center">
-              {props.src && <Image width={600} height={600} src={props.src} alt={props.alt || 'image'} className="my-3" />}
+              {props.src && <img src={props.src} alt={props.alt || 'image'} className="my-3" />}
             </div>
           );
         }

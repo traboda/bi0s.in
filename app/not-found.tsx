@@ -1,9 +1,5 @@
 import React from "react";
 
-export const metadata = {
-    title: "Page Not Found - team bi0s | India's No.1 CTF Team & Cyber Security Research Club",
-}
-
 const NotFoundPage = () => (
     <section className="min-h-[25vmin] flex items-center py-[5vh] px-6">
         <div>
