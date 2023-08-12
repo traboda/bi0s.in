@@ -28,7 +28,7 @@ const BlogMenu = ({ titles }) => {
     };
   }, []);
 
-  return (
+  return (titles && titles?.length > 0) ? (
     <div
         className="sticky"
         style={{
@@ -39,7 +39,7 @@ const BlogMenu = ({ titles }) => {
         On this page
       </div>
       <ul className="flex flex-col gap-3">
-        {(titles && titles?.length) && titles.map(({ label, slug }, index) => (
+        {titles.map(({ label, slug }, index) => (
           <li key={`${slug}_${index}`}>
             <a href={`#${slug}`} className="leading-2 text-sm opacity-80">
               {label}
@@ -48,7 +48,7 @@ const BlogMenu = ({ titles }) => {
         ))}
       </ul>
     </div>
-  );
+  ) : <div />;
 
 };
 

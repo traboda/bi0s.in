@@ -1,6 +1,5 @@
 'use client';
-import React, {useContext} from "react";
-import {Theme} from "../themeContext";
+import React from "react";
 import { Poppins as Font} from "next/font/google";
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
@@ -8,10 +7,7 @@ import clsx from "clsx";
 
 const font = Font({ subsets: ['latin'], weight: ['300', '600'] })
 
-
-const MarkdownViewer = ({ content }: { content: string }) => {
-  const { isDarkTheme } = useContext(Theme);
-  return (
+const MarkdownViewer = ({ content }: { content: string }) => (
     <ReactMarkdown
       className={clsx(['markdown-body', font.className])}
       remarkPlugins={[remarkGfm,]}
@@ -33,7 +29,6 @@ const MarkdownViewer = ({ content }: { content: string }) => {
     >
       {content}
     </ReactMarkdown>
-  );
-}
+);
 
 export default MarkdownViewer;

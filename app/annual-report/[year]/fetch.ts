@@ -2,7 +2,7 @@ const fetchContent = async ({ slug }: { slug: string }) => {
   try {
     const md = require(`../../../data/annual-reports/${slug}.md`) as string;
     const content = md.replace(/!\[(.*?)\]\((.*?)\)/g, (match, p1, p2) => {
-      return `![${p1}](/annual-report/2022/static/${p2})`;
+      return `![${p1}](/annual-report/${slug}/static/${p2})`;
     });
 
     // find all h2 titles and make a list
