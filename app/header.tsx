@@ -13,7 +13,7 @@ const HeaderBar = styled.header`
   position: sticky;
   width: 100%;
   left: 0;
-  padding: 1rem;
+  padding: 0.75rem;
   top: 0;
   z-index: 5000;
 `;
@@ -101,7 +101,7 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <HeaderBar>
+      <HeaderBar id="topbar">
         <div className="flex justify-center">
           <div style={{ width: '1100px', maxWidth: '100%' }}>
             <div className="flex flex-wrap mx-0">

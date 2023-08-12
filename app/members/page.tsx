@@ -1,10 +1,10 @@
 'use client';
 import React, {useState} from "react";
 import MemberSection from "./section";
-import ADVISORS from "../../data/advisors";
-import STAFF from "../../data/staff";
-import STUDENTS from "../../data/students";
-import ALUMNI from "../../data/alumni";
+import ADVISORS from "../../data/members/advisors";
+import STAFF from "../../data/members/staff";
+import STUDENTS from "../../data/members/students";
+import ALUMNI from "../../data/members/alumni";
 
 import FounderSection from "./founder";
 import TableOfContents from "./toc";

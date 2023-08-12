@@ -10,6 +10,14 @@ html, body {
     transition: 0.25s background ease-in-out;
 }
 
+.markdown-body img {
+    filter: none!important;
+}
+
+.markdown-body h2 {
+    scroll-margin-top: 100px;
+}
+
 .w-100 {
     width: 100%;
 }
