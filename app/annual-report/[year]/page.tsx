@@ -7,7 +7,19 @@ import fetchContent from './fetch';
 import MarkdownViewer from "../../shared/MarkdownViewer";
 import clsx from "clsx";
 import BlogMenu from "./menu";
-// import {Metadata, ResolvingMetadata} from "next";
+import {Metadata} from "next";
+
+export const generateMetadata = async ({ params }): Promise<Metadata> => {
+  const content = await fetchContent({ slug: params?.year });
+  if(!content?.content) {
+    return {
+      title: 'Not Found',
+    };
+  }
+  return {
+    title: content.title,
+  };
+};
 
 const AnnualReportPage = async (props: { params: { year: string } }) => {
 
