@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
-  output: 'standalone',
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push(
         {
