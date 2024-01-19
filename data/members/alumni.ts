@@ -21,7 +21,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "Barla Abhishek",
         "firstname": "Barla",
         "lastname": "Abhishek",
         "category": "Reverse Engineering",
@@ -32,7 +31,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "fug1t1ve",
         "firstname": "Gourav",
         "lastname": "Singh Bajeli",
         "category": "Reversing",
@@ -43,7 +41,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "Pwn_Solo",
         "firstname": "Hrishikesh",
         "lastname": "Pankaj",
         "category": "Binary Exploitation",
@@ -54,7 +51,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "Pavani",
         "firstname": "Poluru",
         "lastname": "Pavani",
         "category": "Cryptography",
@@ -65,7 +61,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "d3liri0us",
         "firstname": "Pranav",
         "lastname": "Nair",
         "category": "Forensics",
@@ -77,7 +72,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "1nt3rc3pt0r",
         "firstname": "Sayooj",
         "lastname": "B Kumar",
         "category": "Web Exploitation",
@@ -89,7 +83,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "shravya",
         "firstname": "Shravya",
         "lastname": "Bhaskara",
         "category": "Binary Exploitation",
@@ -100,7 +93,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "imm0rt4l_5t4rk",
         "firstname": "Simran",
         "lastname": "Kathpalia",
         "category": "Reversing",
@@ -113,7 +105,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "The_Str1d3r",
         "firstname": "Vishvesh",
         "lastname": "S Rao",
         "category": "Cryptography",
@@ -126,7 +117,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "yadhu",
         "firstname": "Yadhu",
         "lastname": "Krishna M",
         "category": "Web Exploitation",
@@ -140,7 +130,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "A7HUL",
         "firstname": "Athul",
         "lastname": "Menon",
         "category": "Hardware Security",
@@ -154,7 +143,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "IndyGod",
         "firstname": "Indraraj",
         "lastname": "Biswas",
         "category": "Hardware Security",
@@ -165,7 +153,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "V!p3r",
         "firstname": "Ranit",
         "lastname": "Pradhan",
         "category": "Hardware Security",
@@ -179,7 +166,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "bugwatch",
         "firstname": "Abhishek",
         "lastname": "S",
         "category": "Application Security",
@@ -193,7 +179,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "231tr0n",
         "firstname": "Srikar",
         "lastname": "R",
         "category": "Application Security",
@@ -207,7 +192,6 @@ const alumni = [
     },
     {
         "campus": "Amritapuri", 
-        "username": "v1dhun",
         "firstname": "Vidhun",
         "lastname": "K",
         "category": "Application Security",
@@ -350,7 +334,6 @@ const alumni = [
         "campus": "Amritapuri",
         "firstname": "Yaswanth",
         "lastname": "R",
-        "username": "az3z3l",
         "category": "Web Exploitation",
         "team": "CTF",
         "batch": 2022,
