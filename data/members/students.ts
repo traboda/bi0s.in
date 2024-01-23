@@ -64,7 +64,7 @@ const students = [
         "lastname": "Reddy Pagilla",
         "category": "Cryptography",
         "team": "CTF",
-        "year": 3
+        "year": 4
     },
     {
         "campus": "Amritapuri", 
