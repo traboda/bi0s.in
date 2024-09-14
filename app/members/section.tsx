@@ -34,6 +34,9 @@ members?.length > 0 ? (
         ) :
         isAlumni ? (
             <React.Fragment>
+                {members.filter((s) => s.batch === 2024).length > 0 && (
+                    <StudentMemberSection members={members.filter((s) => s.batch === 2024)} title="2024 Batch" />
+                )}
                 {members.filter((s) => s.batch === 2023).length > 0 && (
                     <StudentMemberSection members={members.filter((s) => s.batch === 2023)} title="2023 Batch" />
                 )}
