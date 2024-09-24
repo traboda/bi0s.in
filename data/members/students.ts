@@ -576,6 +576,121 @@ const students = [
         "linkedin":"",
         "email": "sheebaariyambatt26@gmail.com"
     },
+    {
+        "campus": "Amritapuri", 
+        "username": "570rmbr3ak3r",
+        "firstname": "Anirudh",
+        "lastname": "Ajithkumar",
+        "category": "Red Teaming",
+        "team": "Pentest",
+        "year": 2,
+        "linkedin": "anirudh-ajithkumar-651469285",
+        "github": "570RMBR3AK3R",
+        "email": "570rm1234@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "5h3nron",
+        "firstname": "Manish",
+        "lastname": "Adithya P V",
+        "category": "Android Security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "ManishAdithya07",
+        "linkedin": "manish-adithya-p-v-215b32287",
+        "github": "ManishAdithya",
+        "email": "5h3nronpv@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "Archduk3",
+        "firstname": "Aayushman",
+        "lastname": "Singh",
+        "category": "Red Teaming",
+        "team": "Pentest",
+        "year": 2,
+        "linkedin": "aayushman-singh-814b5128b",
+        "github": "Arch-duk3",
+        "email": "aayushman345.singh@outlook.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "ravindra0605_91248",
+        "firstname": "Ravindranath",
+        "lastname": "Reddy",
+        "category": "Android Security",
+        "team": "Pentest",
+        "year": 2,
+        "linkedin": "ravindranath-reddy-5a01a72b8",
+        "github": "Ravindra1t",
+        "email": "rravindranath549@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "lu77_u",
+        "firstname": "Sam MG",
+        "lastname": "Harish",
+        "category": "Android Security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "sam_mg_",
+        "linkedin": "sam-mg-",
+        "github": "sam-mg",
+        "instagram": "sam.mg__",
+        "email": "sammgharish@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "d_s_g_",
+        "firstname": "Deepak",
+        "lastname": "S G",
+        "category": "Blockchain Security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "DeepakSG9",
+        "linkedin": "dsgdeepak",
+        "github": "2D0S0G6",
+        "email": "sgdeepak515@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "s4bot3ur",
+        "firstname": "Dheekonda",
+        "lastname": "Komal Rao",
+        "category": "Blockchain Security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "",
+        "linkedin": "dheekonda-komal-rao-6bb68727b",
+        "github": "s4bot3ur",
+        "email": "s4bot3ur.x.t0r4n4d0@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "d3vn37",
+        "firstname": "Devnath",
+        "lastname": "N S",
+        "category": "Red Teaming",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "Devnath_NS",
+        "linkedin": "devnath-n-s",
+        "github": "DevnathNS",
+        "email": "nsdevnath172@gmail.com"
+    },
+    {
+        "campus": "Amritapuri", 
+        "username": "avis",
+        "firstname": "Sivadev",
+        "lastname": "Smijith",
+        "category": "Android security",
+        "team": "Pentest",
+        "year": 2,
+        "twitter": "lord_avis",
+        "linkedin": "Sivadev Smijith",
+        "github": "lordavis",
+        "email": "sivasmijith@gmail.com"
+    }
 ]
 
 export default students;
