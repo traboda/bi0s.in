@@ -5,6 +5,7 @@ frontend:
       commands:
         - nvm install 18
         - nvm use 18
+        - corepack enable
         - yarn install
     build:
       commands:
