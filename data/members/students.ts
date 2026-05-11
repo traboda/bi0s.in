@@ -480,7 +480,7 @@ const students = [
     },
     {
     campus: 'Amritapuri',
-    username: 'Virus.apk',
+    username: 'Cyb3r7r0n',
     firstname: 'Mithilesh',
     lastname: '',
     category: 'Android Security',
@@ -488,7 +488,7 @@ const students = [
     year: 2,
     twitter: 'Mithile98031958',
     linkedin: 'mithilesh-bandaru-2b3845377',
-    github: '',
+    github: 'mithilesh2007',
     email: 'mithileshbandaru@gmail.com',
     },
     {
